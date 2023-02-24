@@ -1,6 +1,7 @@
 # naki_flutter
 
-A new Flutter project.
+The repository of the SkinDetect App Version 2 made with Flutter. An App to categorize skin lessions
+and detect skin cancer.
 
 ## Getting Started
 
