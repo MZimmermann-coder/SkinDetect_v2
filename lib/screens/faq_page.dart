@@ -65,7 +65,7 @@ class FaqPage extends StatelessWidget {
                   subtitle: faqEntry.subtitle),
             const SizedBox(height: 30),
             Text(
-              "Types of Skin Change",
+              "Types of skin lesions",
               style: const TextStyle(
                 color: Colors.black,
                 fontSize: 28,

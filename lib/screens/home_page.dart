@@ -45,7 +45,7 @@ class HomePage extends StatelessWidget {
               SizedBox(
                   width: 250,
                   child: Text(
-                    "More than 1.5 million people are diagnosed with skin cancer every year. Early detection is essential. - Scan your suspicious areas.",
+                    "More than 1.5 million people are diagnosed with skin cancer every year. Early detection is essential. - Scan your suspicious areas now.",
                     style: TextStyle(fontSize: 15, color: kBlack, height: 1.6),
                   )),
               const SizedBox(height: 150),
@@ -53,12 +53,12 @@ class HomePage extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Button(
-                      label: "Upload Scan",
+                      label: "Use existing Scan",
                       onTap: () =>
                           abstractHandler(context, ImageSource.gallery)),
                   const SizedBox(height: 20),
                   Button(
-                      label: "Take Scan",
+                      label: "Take a Scan",
                       onTap: () =>
                           abstractHandler(context, ImageSource.camera)),
                 ],
