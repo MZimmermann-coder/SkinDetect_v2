@@ -40,8 +40,8 @@ class ButtonState extends State<Button> {
             textAlign: TextAlign.center,
             style: TextStyle(
                 color: Colors.white,
-                fontWeight: FontWeight.w500,
-                fontSize: 14)),
+                fontWeight: FontWeight.w700,
+                fontSize: 16)),
       ),
     );
   }
