@@ -4,13 +4,11 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:naki_flutter/components/scaffold_with_nav.dart';
 import 'package:naki_flutter/data_model/diagnosis.dart';
 import 'package:naki_flutter/main.dart';
-import 'package:naki_flutter/util/cancer_type_info.dart';
 import 'package:naki_flutter/util/harm_levels.dart';
 
 import '../util/colors.dart';
 import '../util/date_formatter.dart';
 
-GlobalKey<AnimatedListState> _listKey = GlobalKey<AnimatedListState>();
 
 class HistoryPage extends StatelessWidget {
   HistoryPage() {
@@ -63,11 +61,43 @@ class HistoryPage extends StatelessWidget {
                           key: Key("${scan.key}"),
                           direction: DismissDirection.endToStart,
                           onDismissed: (direction) => scan.delete(),
+                          confirmDismiss: (DismissDirection direction) async {
+                            return await showDialog(
+                              context: context,
+                              builder: (BuildContext context) {
+                                return AlertDialog(
+                                  title: const Text("Confirm deletion"),
+                                  content: const Text(
+                                      "Are you sure you wish to delete this item? This action can't be undone."),
+                                  actions: <Widget>[
+                                    TextButton(
+                                        onPressed: () =>
+                                            Navigator.of(context).pop(true),
+                                        child: const Text("DELETE")),
+                                    TextButton(
+                                      onPressed: () =>
+                                          Navigator.of(context).pop(false),
+                                      child: const Text("CANCEL"),
+                                    ),
+                                  ],
+                                );
+                              },
+                            );
+                          },
                           background: Container(
-                            decoration: BoxDecoration(
-                                color: Colors.redAccent,
-                                borderRadius: BorderRadius.circular(10)),
-                          ),
+                              decoration: BoxDecoration(
+                                  color: Colors.redAccent,
+                                  borderRadius: BorderRadius.circular(10)),
+                              child: Align(
+                                alignment: Alignment.centerRight,
+                                child: Padding(
+                                  padding: EdgeInsets.only(right: 20),
+                                  child: Icon(
+                                    Icons.delete,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              )),
                           child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10),
