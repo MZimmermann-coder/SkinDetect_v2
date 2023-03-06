@@ -244,4 +244,16 @@ final List<CancerTypeEntry> cTypes = [
           'https://www.ssmhealth.com/cardinal-glennon/pediatric-plastic-reconstructive-surgery/hemangiomas',
       riskText: harmlessTreatmentPossible,
       picture: "assets/images/vasc.png"),
+  const CancerTypeEntry(
+      id: 8,
+      type: "scc",
+      shortLabel: "scc",
+      risk: 0.1,
+      description: 'tbd',
+      descriptionShort:
+          'tbd',
+      link:
+          '',
+      riskText: harmlessTreatmentPossible,
+      picture: "assets/images/vasc.png"),
 ];

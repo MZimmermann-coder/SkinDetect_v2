@@ -1,7 +1,8 @@
-akiec
-bcc 
-bkl
-df
 mel
 nv
+bcc
+akiec
+bkl
+df
 vasc
+scc
