@@ -36,7 +36,8 @@ class CancerTypeEntry {
 }
 
 final List<CancerTypeEntry> cTypes = [
-  const CancerTypeEntry(
+  const CancerTypeEntry
+    (
       id: 1,
       type: "Melanoma",
       shortLabel: "mel",
@@ -54,10 +55,10 @@ final List<CancerTypeEntry> cTypes = [
           'Not-So-Fun-Fact: One famous victim of this type of cancer is Bob Marley.\n\n' +
           '(Source: skincancer.org)',
       descriptionShort:
-          'Malignant melanoma is a serious form of skin cancer that begins in cells known as melanocytes.' +
-              'While it is less common than basal cell carcinoma (BCC) and squamous cell carcinoma (SCC),' +
-              'this skin cancer is more dangerous because of its ability to spread to other organs more rapidly' +
-              'if it is not treated at an early stage.\n\n(Source: skincancer.org)',
+      'Malignant melanoma is a serious form of skin cancer that begins in cells known as melanocytes.' +
+          'While it is less common than basal cell carcinoma (BCC) and squamous cell carcinoma (SCC),' +
+          'this skin cancer is more dangerous because of its ability to spread to other organs more rapidly' +
+          'if it is not treated at an early stage.\n\n(Source: skincancer.org)',
       link: "https://www.skincancer.org/skin-cancer-information/melanoma/",
       riskText: highTreatment,
       picture: "assets/images/mel.png"),
@@ -133,7 +134,7 @@ final List<CancerTypeEntry> cTypes = [
           'and treated early. Understanding BCC causes, risk factors and warning signs can help ' +
           'you detect them early, when they are easiest to treat and cure.\n\n(Source: skincancer.org)',
       link:
-          "https://www.skincancer.org/skin-cancer-information/basal-cell-carcinoma/",
+      "https://www.skincancer.org/skin-cancer-information/basal-cell-carcinoma/",
       riskText: highTreatmentRecommended,
       picture: "assets/images/bcc.png"),
   const CancerTypeEntry(
@@ -166,7 +167,7 @@ final List<CancerTypeEntry> cTypes = [
           'keratoses (plural) in the future. This puts you at a higher risk for skin cancer, ' +
           'since AKs can develop into squamous cell carcinoma (SCC), a common and sometimes invasive form of the disease.\n\n(Source: skincancer.org)',
       link:
-          'https://www.skincancer.org/skin-cancer-information/actinic-keratosis/',
+      'https://www.skincancer.org/skin-cancer-information/actinic-keratosis/',
       riskText: mediumTreatment,
       picture: "assets/images/akiec.png"),
   const CancerTypeEntry(
@@ -192,10 +193,10 @@ final List<CancerTypeEntry> cTypes = [
           'Seborrhoeic keratoses are considered degenerative in nature. As time goes by, seborrhoeic keratoses become more numerous. Some people inherit a tendency to develop a very large number of them. \n\n' +
           '(Source: dermnetnz.org)',
       descriptionShort:
-          'Benign keratosis is a broader term that is used to include the following related scaly skin lesions:\n' +
-              'Seborrhoeic keratosis, ' +
-              'Solar lentigo (which can be difficult to distinguish from a flat seborrhoeic keratosis), ' +
-              'Lichen planus-like keratosis (which arises from a seborrhoeic keratosis or a solar lentigo).\n\n(Source: dermnetnz.org)',
+      'Benign keratosis is a broader term that is used to include the following related scaly skin lesions:\n' +
+          'Seborrhoeic keratosis, ' +
+          'Solar lentigo (which can be difficult to distinguish from a flat seborrhoeic keratosis), ' +
+          'Lichen planus-like keratosis (which arises from a seborrhoeic keratosis or a solar lentigo).\n\n(Source: dermnetnz.org)',
       link: 'https://dermnetnz.org/topics/seborrhoeic-keratosis',
       riskText: harmlessTreatmentPossible,
       picture: "assets/images/bkl.png"),
@@ -216,11 +217,11 @@ final List<CancerTypeEntry> cTypes = [
           'immunosuppression, or autoimmune conditions.' +
           '\n\n(Source: dermnetnz.org)',
       descriptionShort:
-          'A dermatofibroma is a common benign fibrous nodule usually found on the skin of the lower legs. ' +
-              'A dermatofibroma is also called a cutaneous fibrous histiocytoma. ' +
-              'Dermatofibromas are mostly seen in adults. People of every ethnicity can develop dermatofibromas. Ordinary ' +
-              'dermatofibromas are more common in women than in men, although some histologic variants are more commonly ' +
-              'identified in males.\n\n(Source: dermnetnz.org)',
+      'A dermatofibroma is a common benign fibrous nodule usually found on the skin of the lower legs. ' +
+          'A dermatofibroma is also called a cutaneous fibrous histiocytoma. ' +
+          'Dermatofibromas are mostly seen in adults. People of every ethnicity can develop dermatofibromas. Ordinary ' +
+          'dermatofibromas are more common in women than in men, although some histologic variants are more commonly ' +
+          'identified in males.\n\n(Source: dermnetnz.org)',
       link: 'https://dermnetnz.org/topics/dermatofibroma',
       riskText: harmlessTreatmentPossible,
       picture: "assets/images/df.png"),
@@ -235,25 +236,28 @@ final List<CancerTypeEntry> cTypes = [
           'look similar at times, they each vary in terms of origin and necessary treatment.\n\n' +
           '(Source: ssmhealth.com)',
       descriptionShort:
-          'Vascular lesions are relatively common abnormalities of the skin and underlying tissues, more ' +
-              'commonly known as birthmarks. There are three major categories of vascular lesions: ' +
-              'Hemangiomas, Vascular Malformations, and Pyogenic Granulomas. While these birthmarks can ' +
-              'look similar at times, they each vary in terms of origin and necessary treatment.\n\n' +
-              '(Source: ssmhealth.com)',
+      'Vascular lesions are relatively common abnormalities of the skin and underlying tissues, more ' +
+          'commonly known as birthmarks. There are three major categories of vascular lesions: ' +
+          'Hemangiomas, Vascular Malformations, and Pyogenic Granulomas. While these birthmarks can ' +
+          'look similar at times, they each vary in terms of origin and necessary treatment.\n\n' +
+          '(Source: ssmhealth.com)',
       link:
-          'https://www.ssmhealth.com/cardinal-glennon/pediatric-plastic-reconstructive-surgery/hemangiomas',
+      'https://www.ssmhealth.com/cardinal-glennon/pediatric-plastic-reconstructive-surgery/hemangiomas',
       riskText: harmlessTreatmentPossible,
       picture: "assets/images/vasc.png"),
   const CancerTypeEntry(
       id: 8,
-      type: "scc",
+      type: "Squamous cell carcinoma",
       shortLabel: "scc",
-      risk: 0.1,
-      description: 'tbd',
+      risk: 0.7,
+      description:
+      'Squamous cell carcinoma of the skin is a common form of skin cancer that develops in the squamous cells that make up the middle and outer layers of the skin.Squamous cell carcinoma of the skin is usually not life-threatening, though it can be aggressive. Untreated, squamous cell carcinoma of the skin can grow large or spread to other parts of your body, causing serious complications.Most squamous cell carcinomas of the skin result from prolonged exposure to ultraviolet (UV) radiation, either from sunlight or from tanning beds or lamps. Avoiding UV light helps reduce your risk of squamous cell carcinoma of the skin and other forms of skin cancer.\n\n Symptoms:\nSquamous cell carcinoma of the skin most often occurs on sun-exposed skin, such as your scalp, the backs of your hands, your ears or your lips. But it can occur anywhere on your body, including inside your mouth, the bottoms of your feet and on your genitals.\nSigns and symptoms of squamous cell carcinoma of the skin include:\n\n-A firm, red nodule\n-A flat sore with a scaly crust\n-A new sore or raised area on an old scar or ulcer\n-A rough, scaly patch on your lip that may evolve to an open sore\n-A red sore or rough patch inside your mouth\n-A red, raised patch or wartlike sore on or in the anus or on your genitals\n\nWhen to see a doctor:\nMake an appointment with your doctor if you have a sore or scab that does not heal in about two months or a flat patch of scaly skin that will not go away.(Source: mayoclinic.org)',
       descriptionShort:
-          'tbd',
+      'Squamous cell carcinoma of the skin is a common form of skin cancer that develops in the squamous cells that make up the middle and outer layers of the skin.Squamous cell carcinoma of the skin is usually not life-threatening, though it can be aggressive. Untreated, squamous cell carcinoma of the skin can grow large or spread to other parts of your body, causing serious complications.Most squamous cell carcinomas of the skin result from prolonged exposure to ultraviolet (UV) radiation, either from sunlight or from tanning beds or lamps. Avoiding UV light helps reduce your risk of squamous cell carcinoma of the skin and other forms of skin cancer.\n\n(Source: mayoclinic.org)',
       link:
-          '',
-      riskText: harmlessTreatmentPossible,
-      picture: "assets/images/vasc.png"),
+      'https://www.mayoclinic.org/diseases-conditions/squamous-cell-carcinoma/symptoms-causes/syc-20352480#',
+      riskText: highTreatmentRecommended,
+      picture:"assets/images/scc.jpg",
+  )
+  ,
 ];
