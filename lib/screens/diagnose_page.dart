@@ -148,7 +148,7 @@ class _DiagnosePageState extends State<DiagnosePage> {
                                       children: [
                                         Text(
                                           cTypeEntry.descriptionShort,
-                                          textAlign: TextAlign.left,
+                                          textAlign: TextAlign.justify,
                                           style: TextStyle(
                                             fontSize: 15,
                                           ),
