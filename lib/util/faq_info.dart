@@ -25,7 +25,7 @@ class FAQEntry {
 final List<FAQEntry> faqInfo = [
   const FAQEntry(
     id: 1,
-    question: "How do i use this app?",
+    question: "How do I use this app?",
     subtitle: "See the tutorial on our website.",
     link: "https://knorr3.github.io/skin-detect-web/",
     description: [],
