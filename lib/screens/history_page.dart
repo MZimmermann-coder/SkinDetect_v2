@@ -9,7 +9,6 @@ import 'package:skindetect/util/harm_levels.dart';
 import '../util/colors.dart';
 import '../util/date_formatter.dart';
 
-
 class HistoryPage extends StatelessWidget {
   HistoryPage() {
     color.toGray();
@@ -71,14 +70,14 @@ class HistoryPage extends StatelessWidget {
                                       "Are you sure you wish to delete this item? This action can't be undone."),
                                   actions: <Widget>[
                                     TextButton(
-                                        onPressed: () =>
-                                            Navigator.of(context).pop(true),
-                                        child: const Text("DELETE")),
-                                    TextButton(
                                       onPressed: () =>
                                           Navigator.of(context).pop(false),
                                       child: const Text("CANCEL"),
                                     ),
+                                    TextButton(
+                                        onPressed: () =>
+                                            Navigator.of(context).pop(true),
+                                        child: const Text("DELETE")),
                                   ],
                                 );
                               },
