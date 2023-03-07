@@ -1,5 +1,5 @@
-name: SkinDetect
-description: SkinDetect is an app created to recognize differnt type of skin lesions and skin cancer.
+name: skindetect
+description: SkinDetect is an app created to recognize different types of skin lesions and skin cancer. This is the second version of the app created in Flutter.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -47,6 +47,14 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   intl: ^0.18.0
+  flutter_launcher_icons: ^0.12.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
 
 dev_dependencies:
   flutter_test:

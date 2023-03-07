@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:naki_flutter/components/button.dart';
-import 'package:naki_flutter/components/scaffold_with_nav.dart';
-import 'package:naki_flutter/util/colors.dart';
+import 'package:skindetect/components/button.dart';
+import 'package:skindetect/components/scaffold_with_nav.dart';
+import 'package:skindetect/util/colors.dart';
 
 class HomeWarningPage extends StatelessWidget {
   HomeWarningPage() {

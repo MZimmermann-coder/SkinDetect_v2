@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "naki_flutter" "\0"
+            VALUE "FileDescription", "SkinDetect" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "naki_flutter" "\0"
+            VALUE "InternalName", "SkinDetect" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "naki_flutter.exe" "\0"
-            VALUE "ProductName", "naki_flutter" "\0"
+            VALUE "ProductName", "SkinDetect" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

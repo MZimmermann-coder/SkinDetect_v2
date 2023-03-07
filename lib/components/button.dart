@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:naki_flutter/util/colors.dart';
+import 'package:skindetect/util/colors.dart';
 
 class Button extends StatefulWidget {
   const Button(

@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:naki_flutter/screens/cancer_type_detail_page.dart';
-import 'package:naki_flutter/screens/diagnose_history_page.dart';
-import 'package:naki_flutter/screens/diagnose_page.dart';
-import 'package:naki_flutter/screens/faq_page.dart';
-import 'package:naki_flutter/screens/home_page.dart';
-import 'package:naki_flutter/screens/history_page.dart';
-import 'package:naki_flutter/screens/home_warning_page.dart';
-import 'package:naki_flutter/screens/question_detail_page.dart';
+import 'package:skindetect/screens/cancer_type_detail_page.dart';
+import 'package:skindetect/screens/diagnose_history_page.dart';
+import 'package:skindetect/screens/diagnose_page.dart';
+import 'package:skindetect/screens/faq_page.dart';
+import 'package:skindetect/screens/home_page.dart';
+import 'package:skindetect/screens/history_page.dart';
+import 'package:skindetect/screens/home_warning_page.dart';
+import 'package:skindetect/screens/question_detail_page.dart';
 import '../components/scaffold_with_nav.dart';
 
 final _rootNavigatorKey = GlobalKey<NavigatorState>();

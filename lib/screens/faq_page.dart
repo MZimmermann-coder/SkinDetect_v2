@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:naki_flutter/components/scaffold_with_nav.dart';
-import 'package:naki_flutter/util/cancer_type_info.dart';
-import 'package:naki_flutter/util/faq_info.dart';
+import 'package:skindetect/components/scaffold_with_nav.dart';
+import 'package:skindetect/util/cancer_type_info.dart';
+import 'package:skindetect/util/faq_info.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../components/button.dart';

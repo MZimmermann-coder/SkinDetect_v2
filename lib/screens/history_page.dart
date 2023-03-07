@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:naki_flutter/components/scaffold_with_nav.dart';
-import 'package:naki_flutter/data_model/diagnosis.dart';
-import 'package:naki_flutter/main.dart';
-import 'package:naki_flutter/util/harm_levels.dart';
+import 'package:skindetect/components/scaffold_with_nav.dart';
+import 'package:skindetect/data_model/diagnosis.dart';
+import 'package:skindetect/main.dart';
+import 'package:skindetect/util/harm_levels.dart';
 
 import '../util/colors.dart';
 import '../util/date_formatter.dart';

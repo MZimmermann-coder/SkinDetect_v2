@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:naki_flutter/components/scaffold_with_nav.dart';
-import 'package:naki_flutter/util/colors.dart';
-import 'package:naki_flutter/util/text_styles.dart';
+import 'package:skindetect/components/scaffold_with_nav.dart';
+import 'package:skindetect/util/colors.dart';
+import 'package:skindetect/util/text_styles.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../components/button.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:naki_flutter/blocs/scaffold_app_bar.dart';
-import 'package:naki_flutter/blocs/scaffold_color.dart';
+import 'package:skindetect/blocs/scaffold_app_bar.dart';
+import 'package:skindetect/blocs/scaffold_color.dart';
 
 ScaffoldColorCubit color = ScaffoldColorCubit();
 // ScaffoldAppBarCubit appBar = ScaffoldAppBarCubit();
