@@ -153,6 +153,13 @@ class _DiagnosePageState extends State<DiagnosePage> {
                                           ),
                                         )
                                       ]),
+                                  const SizedBox(height: 30),
+                                  Text("My lesion looks different",
+                                      style: kAppbarHeader),
+                                  const SizedBox(height: 10),
+                                  Text("tbd",
+                                      style: TextStyle(
+                                          color: kDarkGray, fontSize: 16)),
                                   const SizedBox(
                                     height: 40,
                                   ),
