@@ -59,7 +59,7 @@ final List<FAQEntry> faqInfo = [
   ),
   const FAQEntry(
     id: 5,
-    question: "Can SkinDetect help me detect skin cancer?",
+    question: "Can it help me detect skin cancer?",
     subtitle: "The goal of SkinDetect is to help you assess skin lesions.",
     description: [
       'The goal of SkinDetect is to help you assess skin lesions as quickly and reliably as possible. With SkinDetect you can detect seven different types of skin lesions:',
