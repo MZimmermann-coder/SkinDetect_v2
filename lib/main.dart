@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:tflite/tflite.dart';
@@ -29,6 +30,7 @@ class NaKiFlutter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       routerConfig: nakiRouter,
       theme: ThemeData(textTheme: GoogleFonts.robotoTextTheme()),
     );

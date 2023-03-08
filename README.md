@@ -58,7 +58,8 @@ only saved locally on your device.
 ## SkinDetects AI
 
 For this second version of SkinDetect, the AI has been completely developed from the ground up. The
-AI was trained on over 25 000 images from the ISIC 2019 dataset using the EfficientNetV2M
+AI was trained on over 25 000 images from
+the [ISIC 2019 dataset](https://challenge.isic-archive.com/landing/2019/) using the EfficientNetV2M
 architecture.Overall, the model achieved an accuracy of around 89% evaluated via 5-fold
 cross-validation. All metrics evaluated via 5-fold cross-validation can be seen below:
 
@@ -72,7 +73,23 @@ For more in-depth information, refer to the Google Colab Notebook where the AI w
 trained [here](https://colab.research.google.com/drive/1mg9DSqIsEkWc1mC333MlAA-MWaXnKeb4?usp=sharing)
 .
 
-## Availability in Google Play and the Apple App Store
+## Getting started
+
+After installing the app, the home screen is presented. On this screen, you can take a new scan or
+use an existing one for the diagnosis.
+
+<img src="documentation/home_screen.png" height="40%">
+
+Once the SkinDetect AI has evaluated your skin lesion, the diagnosis is presented to you. Here you
+can get information about the type of diagnosed lesion, its risk, and the certainty of the AI.
+Additionally, you can find a doctor near you if desired. If you wish to, you can save your scan on
+the top right and access it in your history on the bottom right any time later.
+
+For an in-depth tutorial on how to use this app, refer to the FAQ section in the app. Here many
+relevant questions will be answered and the different types of skin lesions are explained
+extensively.
+
+## Getting the app
 
 As releasing medical apps comes with many hurdles relating to regulatory approval and legal
 safeguards for us developers, the SkinDetect app is unfortunately not available for download at the
