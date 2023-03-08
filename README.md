@@ -78,16 +78,26 @@ trained [here](https://colab.research.google.com/drive/1mg9DSqIsEkWc1mC333MlAA-M
 After installing the app, the home screen is presented. On this screen, you can take a new scan or
 use an existing one for the diagnosis.
 
-<img src="documentation/home_screen.png" height="40%">
+<div align=center>
+    <img src="documentation/home_screen.png" style="height: 70vh"/>
+</div>
 
 Once the SkinDetect AI has evaluated your skin lesion, the diagnosis is presented to you. Here you
 can get information about the type of diagnosed lesion, its risk, and the certainty of the AI.
 Additionally, you can find a doctor near you if desired. If you wish to, you can save your scan on
 the top right and access it in your history on the bottom right any time later.
 
+<div align=center>
+    <img src="documentation/diagnosis.png" style="height: 70vh"/>
+</div>
+
 For an in-depth tutorial on how to use this app, refer to the FAQ section in the app. Here many
 relevant questions will be answered and the different types of skin lesions are explained
 extensively.
+
+<div align=center>
+    <img src="documentation/faq_screen.png" style="height: 70vh"/>
+</div>
 
 ## Getting the app
 
