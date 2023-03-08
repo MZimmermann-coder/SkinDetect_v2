@@ -65,7 +65,7 @@ cross-validation. All metrics evaluated via 5-fold cross-validation can be seen 
 - Average validation loss: 0.495 (Standard deviation of 3.67%)
 - Average validation accuracy: 88.96% (Standard deviation of 0.36%)
 - Average validation F1-Score: 88.82% (Standard deviation of 0.37%)
-- Average validation precission: 89.43% (Standard deviation of 0.35%)
+- Average validation precision: 89.43% (Standard deviation of 0.35%)
 - Average validation recall: 88.69% (Standard deviation of 0.36%)
 
 For more in-depth information, refer to the Google Colab Notebook where the AI was
@@ -73,6 +73,13 @@ trained [here](https://colab.research.google.com/drive/1mg9DSqIsEkWc1mC333MlAA-M
 .
 
 ## Availability in Google Play and the Apple App Store
+
+As releasing medical apps comes with many hurdles relating to regulatory approval and legal
+safeguards for us developers, the SkinDetect app is unfortunately not available for download at the
+moment. To test the app during development, the latest version for Android can be
+downloaded [here](latest_app_version/).
+This version is only meant to be used by the developers of this app and is not a released version
+for the public.
 
 ## Creators
 
