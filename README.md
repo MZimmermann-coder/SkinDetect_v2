@@ -113,7 +113,7 @@ downloaded [here](latest_app_version/).
 This version is only meant to be used by the developers of this app and is not a released version
 for the public.
 
-## Creators
+## Developed by
 
 - Dennis Klaus
 - Maximilian Zimmermann
