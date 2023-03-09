@@ -5,9 +5,9 @@
     <p>SkinDetect is an app created to diagnose skin lesions, including the most widespread types of skin cancer, via its custom-trained AI. This is the repository for the second version of the app, developed with Flutter and Tensorflow.</p>
 
 [![tensorflow](https://img.shields.io/badge/TensorFlow-2.11-FF6F00.svg?style=flat&logo=tensorflow)](https://www.tensorflow.org)
-[![flutter](https://img.shields.io/badge/Flutter-3.7.5-44D1FD.svg?logo=flutter)](https://www.tensorflow.org)
-[![iOS](https://img.shields.io/badge/os-iOS_10_or_later-green.svg)](https://shields.io/)
-[![iOS](https://img.shields.io/badge/os-Android_4.4_or_later-green.svg)](https://shields.io/)
+[![flutter](https://img.shields.io/badge/Flutter-3.7.5-44D1FD.svg?logo=flutter)](https://flutter.dev/)
+[![iOS](https://img.shields.io/badge/os-iOS_10_or_later-green.svg)](https://www.apple.com/ios)
+[![android](https://img.shields.io/badge/os-Android_4.4_or_later-green.svg)](https://www.android.com)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 </div>
 
@@ -46,7 +46,8 @@ studies suggest that the 5-year survival rate is 99% if the cancer has not yet s
 nodes. If the cancer has already spread and hit nearby lymph nodes, the likelihood of survival drops
 to only 68%. If distant lymph nodes and organs are affected, the risk is as low as 30%. These
 research results show that early and accurate detection is essential for
-survival ([American Academy of Dermatolgy Association, 2022](https://www.aad.org/media/stats-skin-cancer)).
+survival ([American Academy of Dermatolgy Association, 2022](https://www.aad.org/media/stats-skin-cancer))
+.
 
 To support this early and accurate detection, we developed this app to help dermatologists with
 their diagnosis and give people without a medical background the chance to make an assessment about
@@ -126,5 +127,20 @@ for the public.
 
 ## Developed by
 
-- Dennis Klaus
-- Maximilian Zimmermann
+<ul>
+<li>
+<div style="display: flex;align-items: center;">
+<p style="margin-right: 2vw">Dennis Klaus</p>
+
+[![linkedIn Dennis](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)]()
+</div>
+</li>
+
+<li>
+<div style="display: flex;align-items: center;">
+<p style="margin-right: 2vw">Maximilian Zimmermann</p>
+
+[![linkedIn Maxi](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maximilian-zimmermann)
+</div>
+</li>
+</ul>
