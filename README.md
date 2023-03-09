@@ -10,7 +10,6 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 </div>
 
-
 ## About SkinDetect
 
 SkinDetect is an app that uses artificial intelligence to recognize eight different types of skin
@@ -69,9 +68,11 @@ the AES secret key being encrypted with RSA and stored in your Keystore.
 
 ## SkinDetects AI
 
-For this second version of SkinDetect, the AI has been completely developed from the ground up. The
+For this second version of SkinDetect, the AI has been completely redeveloped from the ground up.
+The
 AI was trained on over 25 000 images from
-the [ISIC 2019 dataset](https://challenge.isic-archive.com/landing/2019/) using the EfficientNetV2M
+the [ISIC 2019 dataset](https://challenge.isic-archive.com/landing/2019/) using
+the [EfficientNetV2M](https://www.tensorflow.org/api_docs/python/tf/keras/applications/efficientnet_v2/EfficientNetV2M)
 architecture. Overall, the model achieved an accuracy of around 89% evaluated via 5-fold
 cross-validation. All metrics evaluated via 5-fold cross-validation can be seen below:
 
