@@ -62,7 +62,7 @@ final List<FAQEntry> faqInfo = [
     question: "Can it help me detect skin cancer?",
     subtitle: "The goal of SkinDetect is to help you assess skin lesions.",
     description: [
-      'The goal of SkinDetect is to help you assess skin lesions as quickly and reliably as possible. With SkinDetect you can detect seven different types of skin lesions:',
+      'The goal of SkinDetect is to help you assess skin lesions as quickly and reliably as possible. With SkinDetect you can detect eight different types of skin lesions:',
       '- Actinic keratoses and intraepithelial carcinoma, Bowen\'s disease\n' +
           '- Basal cell carcinoma\n' +
           '- Benign keratosis-like lesions (solar lentigines, seborrheic keratoses and lichen-planus like keratoses)\n' +
@@ -70,6 +70,7 @@ final List<FAQEntry> faqInfo = [
           '- Melanoma\n' +
           '- Melanocytic nevi\n' +
           '- Vascular lesions (angiomas, angiokeratomas, pyogenic granulomas and hemorrhage)',
+      '- Squamous cell carcinoma',
       'Our app does not replace a dermatologist! Everyone should be examined regularly by a professional dermatologist. You can find out more about this under the question "Does this app replace a professional dermatologist?".'
     ],
   ),
