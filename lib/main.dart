@@ -3,6 +3,9 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:tflite/tflite.dart';
+import 'dart:convert';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+
 
 import 'config/router.dart';
 import 'data_model/diagnosis.dart';
@@ -18,7 +21,18 @@ Future<void> main() async {
   );
   await Hive.initFlutter();
   Hive.registerAdapter(DiagnosisAdapter());
-  historyBox = await Hive.openBox<Diagnosis>(history);
+
+  //encryption of the hive storage
+  final FlutterSecureStorage secureStorage = FlutterSecureStorage();
+  var containsEncryptionKey = await secureStorage.containsKey(key: 'encryptionKey');
+  if (!containsEncryptionKey) {
+    var key = Hive.generateSecureKey();
+    await secureStorage.write(key: 'encryptionKey', value: base64UrlEncode(key));
+  }
+  var encryptionKey = base64Url.decode((await secureStorage.read(key: 'encryptionKey'))!);
+
+  //open the hive storage
+  historyBox = await Hive.openBox<Diagnosis>(history, encryptionCipher: HiveAesCipher(encryptionKey));
 
   runApp(const NaKiFlutter());
 }

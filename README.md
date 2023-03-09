@@ -47,14 +47,16 @@ their skin lesions.
 
 We made the SkinDetect app completely free so that anyone, regardless of income, could use it. The
 only requirement is that you have a smartphone capable of running this app and a lens attachment for
-your camera. All devices with Android 4.1 (and above) or iOS 11 (and above) are supported.
+your camera. All devices with Android 4.4 (and above) or iOS 11 (and above) are supported.
 
 ## Privacy protection
 
 As this app handles sensitive information about your health, we put a great emphasis on the
 protection of your data. That's why we implemented a "privacy by design" model. By default, no data
 from your skin lesion scans is saved. Not locally nor in the cloud. However, if you wish to save a
-diagnosis, it is possible to do so. The scan will then be saved locally on your device.
+diagnosis, it is possible to do so. The scan will then be encrypted and saved locally on your
+device. On Apple devices, KeyChain is used for the encryption. On Android devices, AES is used with
+the AES secret key being encrypted with RSA and stored in your Keystore.
 
 ## SkinDetects AI
 

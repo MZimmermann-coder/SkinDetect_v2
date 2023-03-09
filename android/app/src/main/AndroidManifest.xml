@@ -2,6 +2,8 @@
     package="com.example.naki_flutter">
    <application
         android:label="SkinDetect"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
