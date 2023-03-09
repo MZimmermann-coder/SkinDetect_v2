@@ -11,6 +11,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../components/button.dart';
 import '../components/custom_app_bar.dart';
+import '../components/my_lesion_looks_different_info.dart';
 import '../util/cancer_type_info.dart';
 
 class DiagnoseHistoryPage extends StatelessWidget {
@@ -117,6 +118,8 @@ class DiagnoseHistoryPage extends StatelessWidget {
                                           ),
                                         )
                                       ]),
+                                  const SizedBox(height: 30),
+                                  MyLesionLooksDifferentInfo(),
                                   const SizedBox(
                                     height: 40,
                                   ),

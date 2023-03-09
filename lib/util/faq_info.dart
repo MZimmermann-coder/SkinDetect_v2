@@ -92,7 +92,7 @@ final List<FAQEntry> faqInfo = [
     subtitle: "Our app runs completely offline on your device.",
     description: [
       'Our app runs completely offline on your device. No data is communicated, so you are the only person who has access to your data.',
-      'We have applied a privacy-by-design approach, where no personal data is stored by default. Only when you save a scan to look at it again later, data is stored. All your data is encrypted before its stored on your device. This happens completely offline and is therefore privacy-friendly.'
+      'We have applied a privacy-by-design approach, where no personal data is stored by default. Only when you save a scan to look at it again later, data is stored. All your data is encrypted before it is stored on your device. This happens completely offline and is therefore privacy-friendly.'
     ],
   ),
   const FAQEntry(
