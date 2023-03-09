@@ -1,6 +1,15 @@
-# SkinDetect v2
+# SkinDetect
 
-This is the repository for the second version of the SkinDetect App developed in Flutter.
+<div align=center>
+    <img src="documentation/icon_with_name.png" style="width: 50%"/>
+    <p>This is the repository for the second version of the SkinDetect App developed in Flutter.</p>
+
+[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/)
+[![iOS](https://img.shields.io/badge/os-iOS_10_or_later-green.svg)](https://shields.io/)
+[![iOS](https://img.shields.io/badge/os-Android_4.4_or_later-green.svg)](https://shields.io/)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+</div>
+
 
 ## About SkinDetect
 
