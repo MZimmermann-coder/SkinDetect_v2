@@ -2,9 +2,10 @@
 
 <div align=center>
     <img src="documentation/icon_with_name.png" style="width: 50%"/>
-    <p>This is the repository for the second version of the SkinDetect App developed in Flutter.</p>
+    <p>SkinDetect is an app created to diagnose skin lesions, including the most widespread types of skin cancer, via its custom-trained AI. This is the repository for the second version of the app, developed with Flutter and Tensorflow.</p>
 
-[![made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/)
+[![tensorflow](https://img.shields.io/badge/TensorFlow-2.11-FF6F00.svg?style=flat&logo=tensorflow)](https://www.tensorflow.org)
+[![flutter](https://img.shields.io/badge/Flutter-3.7.5-44D1FD.svg?logo=flutter)](https://www.tensorflow.org)
 [![iOS](https://img.shields.io/badge/os-iOS_10_or_later-green.svg)](https://shields.io/)
 [![iOS](https://img.shields.io/badge/os-Android_4.4_or_later-green.svg)](https://shields.io/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
