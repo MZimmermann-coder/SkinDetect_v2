@@ -127,20 +127,9 @@ for the public.
 
 ## Developed by
 
-<ul>
-<li>
-<div style="display: flex;align-items: center;">
-<p style="margin-right: 2vw">Dennis Klaus</p>
 
-[![linkedIn Dennis](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)]()
-</div>
-</li>
+- Dennis Klaus &ensp;&ensp;[![linkedIn Dennis](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)]()
 
-<li>
-<div style="display: flex;align-items: center;">
-<p style="margin-right: 2vw">Maximilian Zimmermann</p>
+- Maximilian Zimmermann &ensp;&ensp;[![linkedIn Maxi](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maximilian-zimmermann)
 
-[![linkedIn Maxi](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maximilian-zimmermann)
-</div>
-</li>
-</ul>
+
