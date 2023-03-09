@@ -45,7 +45,7 @@ studies suggest that the 5-year survival rate is 99% if the cancer has not yet s
 nodes. If the cancer has already spread and hit nearby lymph nodes, the likelihood of survival drops
 to only 68%. If distant lymph nodes and organs are affected, the risk is as low as 30%. These
 research results show that early and accurate detection is essential for
-survival. ([American Academy of Dermatolgy Association, 2022)](https://www.aad.org/media/stats-skin-cancer)
+survival ([American Academy of Dermatolgy Association, 2022](https://www.aad.org/media/stats-skin-cancer)).
 
 To support this early and accurate detection, we developed this app to help dermatologists with
 their diagnosis and give people without a medical background the chance to make an assessment about
