@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:hive/hive.dart';
 import 'package:skindetect/blocs/prediction.dart';
 import 'package:skindetect/components/range_bar.dart';
 import 'package:skindetect/components/scaffold_with_nav.dart';
@@ -104,9 +103,15 @@ class _DiagnosePageState extends State<DiagnosePage> {
                                           padding:
                                               const EdgeInsets.only(left: 15),
                                           child: Column(children: [
-                                            Text(cTypeEntry.type,
+                                            FittedBox(
+                                              fit: BoxFit.fitWidth,
+                                              child: Text(
+                                                cTypeEntry.type
+                                                    .replaceAll(' ', '\n'),
                                                 textAlign: TextAlign.center,
-                                                style: kAppbarHeader),
+                                                style: kAppbarHeader,
+                                              ),
+                                            ),
                                             SizedBox(height: 5),
                                             GestureDetector(
                                                 onTap: () => {
