@@ -128,7 +128,7 @@ for the public.
 ## Developed by
 
 
-- Dennis Klaus &ensp;[![linkedIn Dennis](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)]()
+- Dennis Klaus &ensp;
 
 - Maximilian Zimmermann &ensp;[![linkedIn Maxi](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maximilian-zimmermann)
 
